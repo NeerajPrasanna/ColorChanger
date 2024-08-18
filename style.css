@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+#colorSelection {
+  background-color: rgb(52, 52, 52);
+  width: 20vw;
+  height: 30vh;
+  min-width: 128px;
+  border-radius: 18px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#colorInput {
+  display: none;
+  margin: auto;
+  display: flex;
+  border-radius: 18px;
+  width: 60%;
+}
+
+fieldset {
+  color: white;
+}
+#applyColor {
+  background-color: rgb(144, 255, 144);
+  border: none;
+  width: 100%;
+}
